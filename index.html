@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<!-- head -->
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231214124811">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- head -->
+
+<body>
+	<div class="wrapper">
+		<!-- headed -->
+		<header class="header">
+			<div class="header__container">
+				<a href="/" class="header__logo">
+					<img src="img/logo.svg" alt="logo" />
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Компанія</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Продукція</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Статті</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Рішення</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__action action-header">
+					<a data-da=".menu__list, 767.98" href="tel:0800000000" class="action-header__phone">0 (800) 00-00-00</a>
+					<button class="action-header__button button-call">Зв’язатись</button>
+					<div data-da=".menu__list, 767.98" class="action-header__language language">
+						<a href="#" class="language__ua language-active">UA</a>
+						<a href="#" class="language__ru">RU</a>
+					</div>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+
+		<!-- headed -->
+		<main class="page">
+			<!-- hero -->
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__slider swiper">
+						<div class="hero__wrapper swiper-wrapper">
+							<div class="hero__slide slide-hero swiper-slide">
+								<div class="slide-hero__body">
+									<div class="slide-hero__info info-hero">
+										<h2 class="info-hero__title">Meltem</h2>
+										<div class="info-hero__text">
+											<p>
+												Meltem – це гарантовано якісне вентиляційне обладнання від
+												німецького заводу.
+											</p>
+										</div>
+										<a href="#" class="info-hero__link link-info">
+											<span>Продукція</span>
+										</a>
+									</div>
+									<div class="slide-hero__image">
+										<picture><source srcset="img/hero/01.webp" type="image/webp"><img src="img/hero/01.png" alt="image" /></picture>
+									</div>
+									<div class="slide-hero__decription description-hero">
+										<div class="description-hero__text">
+											<p>Відцентровий витяжний вентилятор</p>
+										</div>
+										<h4 class="description-hero__name">Meltem V-II 30-N</h4>
+										<a href="#" class="description-hero__link link-description">
+											<span>Детальніше</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div class="slide-hero__body">
+									<div class="slide-hero__info info-hero">
+										<h2 class="info-hero__title">Meltem</h2>
+										<div class="info-hero__text">
+											<p>
+												Meltem – це гарантовано якісне вентиляційне обладнання від
+												німецького заводу.
+											</p>
+										</div>
+										<a href="#" class="info-hero__link link-info">
+											<span>Продукція</span>
+										</a>
+									</div>
+									<div class="slide-hero__image">
+										<picture><source srcset="img/hero/01.webp" type="image/webp"><img src="img/hero/01.png" alt="image" /></picture>
+									</div>
+									<div class="slide-hero__decription description-hero">
+										<div class="description-hero__text">
+											<p>Відцентровий витяжний вентилятор</p>
+										</div>
+										<h4 class="description-hero__name">Meltem V-II 30-N</h4>
+										<a href="#" class="description-hero__link link-description">
+											<span>Детальніше</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- If we need scrollbar -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+				</div>
+
+				<!-- modal form -->
+				<div class="modal">
+					<div class="modal__body">
+						<button class="modal__closed">
+							<img src="img/modal/close-btn.svg" alt="btn" />
+						</button>
+						<form action="#" method="post" class="modal__form form-modal">
+							<h3 class="form-modal__title">Залишайте заявку</h3>
+							<div class="form-modal__text">
+								<p>Ми зв’яжемося з вами найближчим часом.</p>
+							</div>
+							<div class="form-modal__body">
+								<input autocomplete="off" type="text" data-error="Помилка" placeholder="Ваше ім’я*" class="form-modal__input input" required />
+								<input autocomplete="off" type="tel" data-error="Помилка" placeholder="+380-00-000-00-00" class="form-modal__input form-modal__input-number input" required />
+								<button type="submit" class="form-modal__button button">
+									Відправить
+								</button>
+								<div class="form-modal__consent">
+									<p>
+										Натискаючи кнопку “Надіслати”, ви погоджуєтесь з
+										<a href="#">
+											<span>Правилами обробки персональних даних</span>
+										</a>
+										.
+									</p>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- modal form -->
+
+				<!-- thanks modal -->
+				<div class="thanks-modal">
+					<div class="thanks-modal__body">
+						<div class="thanks-modal__image">
+							<picture><source srcset="img/modal/quality.webp" type="image/webp"><img src="img/modal/quality.png" alt="image" /></picture>
+						</div>
+						<h4 class="thanks-modal__title">Дякуємо за заявку!</h4>
+						<div class="thanks-modal__text">
+							<p>Ваші дані успішно надіслані!</p>
+						</div>
+					</div>
+				</div>
+				<!-- thanks modal -->
+			</section>
+
+			<!-- hero -->
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+		<!-- footer -->
+
+		<!-- сookies -->
+		<div class="сookies">
+			<div class="сookies__body">
+				<div class="сookies__text">
+					<p>
+						Використовуючи цей сайт, ви даєте згоду на роботу з файлами
+						<a href="#"><span>сookies</span></a> .
+					</p>
+				</div>
+				<button class="сookies__button">Згоден</button>
+			</div>
+		</div>
+		<!-- сookies -->
+	</div>
+	<!-- scripts -->
+	<script src="js/app.min.js?_v=20231214124811"></script>
+	<!-- scripts -->
+</body>
+
+</html>
